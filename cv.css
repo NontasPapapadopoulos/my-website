@@ -1,20 +1,11 @@
-
 body {
     margin:0 ;
     text-align:center;
     font-size:1.25em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Courgette', cursive;
     background-color: #e8ffff;
     
 }
-
-h1 {
-    margin: 50px auto 0 auto;
-    font-size:5.625rem;
-    font-family: 'Pacifico', cursive;
-    color: #66BFBF
-} 
-
 
 .top-container {
     
@@ -26,11 +17,39 @@ h1 {
 
 }
 
+.middle-container {
+    padding-left: 20%;
+    padding-right: 20%;
+} 
 
-h2, h5{
+.bottom-cloud {
+    position:absolute;
+    top: 60%;
+    left:25%;
+
+}
+
+.top-cloud {
+    position:absolute;
+    top:10%;
+    right:15%; }
+
+
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-size:5.625rem;
     font-family: 'Pacifico', cursive;
-    color:#66BFBF;
-    
+    color: #66BFBF
+} 
+
+
+
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+    color:#66BFBF; 
+    margin-bottom: 5%;
 }
 
 h3 {
@@ -42,79 +61,25 @@ a , h3 {
     color: #11999E;
 }
 
-.middle-container  {
-    width:1200px;
-    margin: 50px auto 100px auto; 
-    text-align: left;
-}
-
-
-.expic {
-    float:left;
-    margin-right:35px;
-
-}
-
-.books {
-    float:left;
-    margin-right:35px;
-
-}
-.thesisPic {
-    width: 20rem;
-    float:left;
-    margin-right:35px;
-
-}
-
-
-.education {
-    padding:50px;
-    margin-bottom: 100px;
-    text-align: left;
-}
-.thesis  {
-    padding:50px;
-    text-align: left;
-  
-}
-
-.thesis p {
-    padding-left: 30px;
-}
-
-.experience {
-    margin-top:1500px;
-    position: absolute; 
-    top:400px;
-    padding:50px;
-    /* text-align: right; */
-    text-align: left;
+h5{
+    font-family: 'Pacifico', cursive;
+    color:#66BFBF;
     
-   
 }
-
-.contents {
-    width:600px;
-    position: absolute; 
-    bottom:120px; 
-    left: 400px;
-    margin-left: 30px;
-}
-
 
 .bottom-container {
-    margin-top:700px;
-    font-family: 'Courgette', cursive;
+    background-color:#66BFBF;
+    margin-bottom: 0;
+    height: 150px;
 }
 
 .bottom-container p {
     color: white;
-    margin-top: 20px;
+    margin-bottom: 0;
     font-size:20px;
-    padding: 25px;
+    padding: 15px;
     position:relative;
-    top: 25px;
+    top: 15px;
 }
 
 .bottom-container a {
@@ -130,9 +95,35 @@ a:hover {
     
 }
 
-
-.bottom-container {
-    background-color:#66BFBF;
-    margin-bottom: 0;
-    height: 120px;
+.education {
+    margin-top : 10%;
+    margin-bottom  : 10%;
 }
+
+
+.experience {
+    margin-top: 10%;
+    margin-bottom: 10%;
+   
+}
+.contents {
+    text-align: left;
+    padding-top:5%;
+}
+.pic {
+    width: 20rem;
+    
+}
+
+
+@media (max-width: 995px) {
+
+    .pic {
+        padding-top:10%;
+        padding-bottom: 10%;
+    }
+    
+    }
+    
+
+
