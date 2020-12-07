@@ -136,3 +136,24 @@ a:hover {
     margin-top:7%;
     height: 150px;
 } 
+
+@media (max-width: 995px) {
+
+    .my-pic {
+        width:40%;
+        margin:10%;
+    }
+    
+    .skills-pic  {
+        width:40%;
+    }
+    
+    .hobbies-pic {
+        width:40%;
+    }
+    
+    .motivation-pic   {
+        width:40%;
+    }
+    
+    }
