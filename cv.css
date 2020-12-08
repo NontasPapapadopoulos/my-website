@@ -116,14 +116,36 @@ a:hover {
 }
 
 
-@media (max-width: 995px) {
+@media (max-width: 768px) {
 
-    .pic {
-        padding-top:10%;
-        padding-bottom: 10%;
+    .my-pic {
+        width:50%;
+        margin:10%;
+    }
+    
+    .skills-pic  {
+        width:50%;
+    }
+    
+    .hobbies-pic {
+        width:50%;
+    }
+    
+    .motivation-pic   {
+        width:50%;
+    }
+ 
+  .mountain {
+   width:60%; 
+ }
+ 
+ .name {
+     font-size:50%;
+    }
+ 
+    .bottom-cloud {
+        display: none;
     }
     
     }
-    
-
 
