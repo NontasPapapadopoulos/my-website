@@ -137,7 +137,7 @@ a:hover {
     height: 150px;
 } 
 
-@media (max-width: 995px) {
+@media (max-width: 1000px) {
 
     .my-pic {
         width:40%;
