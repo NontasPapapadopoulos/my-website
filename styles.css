@@ -155,5 +155,9 @@ a:hover {
     .motivation-pic   {
         width:20%;
     }
+ 
+  .top-container {
+   width:80%; 
+ }
     
     }
