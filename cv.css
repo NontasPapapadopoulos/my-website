@@ -118,35 +118,26 @@ a:hover {
 
 @media (max-width: 768px) {
 
-    .my-pic {
-        width:50%;
-        margin:10%;
+    .pic {
+        margin-top:10%;
+        margin-bottom: 10%;
+        width:60%;
     }
     
-    .skills-pic  {
-        width:50%;
+
+    .mountain {
+    width:60%; 
+    margin:10%;
     }
-    
-    .hobbies-pic {
-        width:50%;
+      
+    .name {
+    font-size:50%;
     }
-    
-    .motivation-pic   {
-        width:50%;
-    }
- 
-  .mountain {
-   width:60%; 
-   margin:10%;
- }
- 
- .name {
-     font-size:50%;
-    }
- 
+      
     .bottom-cloud {
-        display: none;
+    display: none;
     }
+}
     
     }
 
