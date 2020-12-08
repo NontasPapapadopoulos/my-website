@@ -137,23 +137,23 @@ a:hover {
     height: 150px;
 } 
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
 
     .my-pic {
-        width:40%;
+        width:20%;
         margin:10%;
     }
     
     .skills-pic  {
-        width:40%;
+        width:20%;
     }
     
     .hobbies-pic {
-        width:40%;
+        width:20%;
     }
     
     .motivation-pic   {
-        width:40%;
+        width:20%;
     }
     
     }
