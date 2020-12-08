@@ -163,5 +163,9 @@ a:hover {
  .name {
      font-size:50%;
     }
+ 
+    .bottom-cloud {
+        display: none;
+    }
     
     }
